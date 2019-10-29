@@ -1,0 +1,28 @@
+/* Importing Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Global properties */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar-custom{
+    background-color: #207637; 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link{
+    color: #8aee8c;
+}
