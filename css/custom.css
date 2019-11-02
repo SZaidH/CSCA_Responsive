@@ -23,23 +23,36 @@ body{
 }
 
 .navbar-custom .navbar-nav .nav-link{
-    color: #ffffff;
-    font-weight: bold;
+    color: #daf1ca;
     margin-right: 10px;
 }
 
 .navbar-custom .nav-item.active .nav-link
 {
-    color: #5d883f;
+    color: #ffffff;
+    font-weight: bold;
     border-bottom: 2px dotted #ffffff;
 }
 
 .navbar-custom .nav-item:hover .nav-link{
-    color: #5d883f;
+    color: #ffffff;
 }
 
 /* Center Image */
 .img-fluid{
     max-width: 100%;
     height: auto;
+    margin-bottom: 20px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron .lead{
+    font-weight: bold;
+    color: #385723;
 }
