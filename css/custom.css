@@ -6,9 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: #aecc99;
+}
+
 /* Navbar */
 .navbar-custom{
-    background-color: #207637; 
+    background-color: #385723;
+    margin-bottom: 20px;
 }
 
 .navbar-custom .navbar-brand,
@@ -20,9 +25,21 @@
 .navbar-custom .navbar-nav .nav-link{
     color: #ffffff;
     font-weight: bold;
+    margin-right: 10px;
 }
 
-.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item.active .nav-link
+{
+    color: #5d883f;
+    border-bottom: 2px dotted #ffffff;
+}
+
 .navbar-custom .nav-item:hover .nav-link{
-    color: #8aee8c;
+    color: #5d883f;
+}
+
+/* Center Image */
+.img-fluid{
+    max-width: 100%;
+    height: auto;
 }
