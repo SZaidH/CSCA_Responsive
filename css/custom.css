@@ -56,3 +56,15 @@ body{
     font-weight: bold;
     color: #385723;
 }
+
+/* Services */
+.services .display-4{
+    color: #385723;
+}
+
+/* Table */
+.table-custom{
+    background-color: #385723;
+    color: #ffffff;
+    margin: 20px auto 0px auto;
+}
