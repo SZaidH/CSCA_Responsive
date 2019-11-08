@@ -57,14 +57,38 @@ body{
     color: #385723;
 }
 
-/* Services */
-.services .display-4{
+/* Titles */
+.titles .display-4{
     color: #385723;
 }
 
 /* Table */
 .table-custom{
-    background-color: #385723;
+    background-color: #375722;
     color: #ffffff;
     margin: 20px auto 0px auto;
+}
+
+.table-custom caption{
+    color: #212529;
+    font-weight: bold;
+}
+
+/* About Us */
+.img-custom{
+    width: 80%;
+    height: 80%;
+}
+
+.about-circle{
+    font-size: 20px;
+    width: 60px;
+    background-color: #375722;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
 }
