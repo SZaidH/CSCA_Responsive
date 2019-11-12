@@ -31,7 +31,7 @@ body{
 {
     color: #ffffff;
     font-weight: bold;
-    border-bottom: 2px dotted #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 .navbar-custom .nav-item:hover .nav-link{
@@ -91,4 +91,37 @@ body{
     border-radius: 50%;
     color: #ffffff;
     font-weight: bold;
+}
+
+/* Map */
+
+.gmap{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+iframe{
+    display: block;
+    width: 100%;
+}
+
+/* Contact Details */
+.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    margin-top: 20px;
+}
+/* Footer */
+.copyright{
+    background-color: #375722;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
