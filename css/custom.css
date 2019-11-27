@@ -125,3 +125,9 @@ iframe{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/* Section HR */
+.titles h1{
+    border-bottom: 3px solid #375722;
+    display: inline-block;
+}
