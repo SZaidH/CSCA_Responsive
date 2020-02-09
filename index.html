@@ -22,7 +22,7 @@
   <!-- Navigation Bar start -->
   <nav class="navbar navbar-expand-md navbar-custom sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="javascript: scrollToHome();">
         <img src="img/logo2.png" width="auto" height="60" alt="CSCA">
       </a>
 
@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="javascript: scrollToHome();">Home</a>
+            <a class="nav-link active" href="javascript: scrollToHome();">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="javascript: scrollToService();">Our Services</a>
@@ -67,7 +67,8 @@
           risk solutions that assist our clients to be more successful</p>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-        <a href="#"><button type="button" class="btn btn-outline-success">Learn more</button></a>
+        <a href="javascript: scrollToService();"><button type="button" class="btn btn-outline-success">Learn
+            more</button></a>
       </div>
     </div>
   </div>
@@ -148,10 +149,10 @@
         <p>We pursue to exceed our Customers Expectations and provide the best in class services by adhering to our
           <b>Corporate Values</b></p>
         <div class="row padding">
-          <div class="col-sm-2">
+          <div class="col-2">
             <p class="about-circle">1</p>
           </div>
-          <div class="col-sm">
+          <div class="col-10">
             <h4>Transparency and Professional Ethics</h4>
             <p>
               We seek to reflect our moral and corporate values in all our business with commitment of Transparency and
@@ -161,10 +162,10 @@
         </div>
 
         <div class="row padding">
-          <div class="col-sm-2">
+          <div class="col-2">
             <p class="about-circle">2</p>
           </div>
-          <div class="col-sm">
+          <div class="col-10">
             <h4>Quality and Excellence</h4>
             <p>
               We evaluate our performance through implementation of high level metrices and benchmarks. We thrive to
@@ -174,10 +175,10 @@
         </div>
 
         <div class="row padding">
-          <div class="col-xs col-sm-2 col-xs-offset">
+          <div class="col-2">
             <p class="about-circle">3</p>
           </div>
-          <div class="col-sm">
+          <div class="col-10">
             <h4>Team Approach</h4>
             <p>
               We invest heavily to improve our human resources and develop a culture of team work and cooperation among
@@ -187,7 +188,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <img src="img/riyadh.jpg" alt="Image" class="img-fluid img-custom">
+        <img src="img/riyadh.jpg" alt="Image" class="img-fluid img-custom d-block mx-auto mx-md-0">
       </div>
     </div>
     <hr class="my-4">
@@ -207,7 +208,7 @@
   <div class="container-fluid padding" id="contact">
     <div class="row titles text-center">
       <div class="col-12">
-        <h1 class="display-4">Contact Details</h1>
+        <h1 class="display-4">Contact Us</h1>
       </div>
 
       <div class="container-fluid padding contact">
@@ -228,32 +229,69 @@
             <p>Fri-Sat: Closed</p>
           </div>
         </div>
+      </div>
 
+      <div class="container padding customForm">
+        <div class="row padding">
+          <div class="col-12">
+            <h2 d-block mx-auto mx-md-0>Get in Touch</h2>
+          </div>
+        </div>
+        <div class="row padding">
+          <div class="col-lg-8">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-lg-5">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group col-lg-5">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-lg-10">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-lg-3">
+                  <button type="submit" class="btn btn-primary custom-btn">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-4">
+            <p>"At CSCA, we strive to place the needs of our clients at the forefront. You can get in touch with us if you have any queries, comments, or constructive feedback which will enable us to provide you with a pleasant experience"</p>
+          </div>
+        </div>
       </div>
-      </div>
+    </div>
   </div>
-    <br>
-    <!-- Contact Details End -->
+  <br>
+  <!-- Contact Details End -->
 
-    <!-- Footer Start -->
-    <footer class="container-fluid copyright text-center">
-      <p>&copy; Copyright 2019. All Rights Reserved</p>
-    </footer>
-    <!-- Footer End -->
+  <!-- Footer Start -->
+  <footer class="container-fluid copyright text-center">
+    <p>&copy; Copyright 2019. All Rights Reserved</p>
+  </footer>
+  <!-- Footer End -->
 
-    <!-- Bootstrap Components -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    
-    <!-- Custom JS -->
-    <script src="scripts/active_menu.js"></script>
+  <!-- Bootstrap Components -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom JS -->
+  <script src="scripts/active_menu.js"></script>
 </body>
 
 </html>

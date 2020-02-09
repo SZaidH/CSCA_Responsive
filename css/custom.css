@@ -1,9 +1,10 @@
 /* Importing Font */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 /* Global properties */
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -25,17 +26,18 @@ body{
 .navbar-custom .navbar-nav .nav-link{
     color: #daf1ca;
     margin-right: 10px;
-}
-
-.navbar-custom .nav-item.active .nav-link
-{
-    color: #ffffff;
-    font-weight: bold;
-    border-bottom: 2px solid #ffffff;
+    font-size: 25px;
 }
 
 .navbar-custom .nav-item:hover .nav-link{
     color: #ffffff;
+}
+
+.navbar-custom .active .nav-link
+{
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Center Image */
@@ -60,6 +62,11 @@ body{
 /* Titles */
 .titles .display-4{
     color: #385723;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0px 70px 10px 70px;
+    margin-bottom: 30px;
+    border-bottom: 2px #385723 solid;
 }
 
 /* Table */
@@ -115,6 +122,31 @@ iframe{
 .contact p{
     margin-top: 20px;
 }
+
+.customForm h2{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border-left: 5px solid #375722;
+}
+
+.customForm p{
+    text-align: justify;
+    border-right: 5px solid #375722;
+    padding-right: 15px;
+}
+
+.customForm form label{
+    text-align: left;
+    display: block;
+}
+
+.customForm .custom-btn{
+    background-color: #375722;
+    border-color: #375722;
+}
+
 /* Footer */
 .copyright{
     background-color: #375722;
@@ -128,6 +160,5 @@ iframe{
 
 /* Section HR */
 .titles h1{
-    border-bottom: 3px solid #375722;
     display: inline-block;
 }
